@@ -1,0 +1,41 @@
+.home{
+    background: linear-gradient(to right, #fffdfd,rgb(171, 171, 7));
+    height: 100vh;
+}
+video{
+    width: 500px;
+    height: 750px;
+    float: right;
+    border-radius: 50% 50%  50%;
+    border: 2px solid black;
+    background-color:  rgb(171, 171, 7);
+}
+.flex{
+    display: flex;
+    align-items: center;
+}
+.into{
+    position: absolute;
+    
+    
+}
+.into h2{
+    font-size: x-large;
+   text-align: center;
+    margin-top: 10%;
+    padding: 20px;
+}
+.into h3{
+    padding: 10px;
+    text-align: center;
+    margin-left: 20px;
+}
+.into i{
+    padding: 10px;
+    margin-left: 20px;
+    font-size: 30px;
+}
+.into p{
+    text-align: justify;
+    margin-left: 30px;
+}

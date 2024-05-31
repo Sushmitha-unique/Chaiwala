@@ -1,0 +1,36 @@
+.main{
+    background: linear-gradient(to right,rgb(171, 171, 7), #fffdfd);
+    height: 100vh;
+}
+img{
+    height:350px;
+    width: 350px;
+    padding: 10px;
+    margin-left: 30px;
+    margin-top: 15px;
+    border: 2px solid black;
+   
+}
+.flex{
+    display: flex;
+    align-items: center;
+}
+.img h1{
+    color: black;
+    margin-bottom: 15%;
+    margin-left: 45px ;
+}
+.img p{
+    margin-left: 30px;
+    margin-top: 20px;
+    text-align: justify;
+}
+.disc h2{
+    width: 20%;
+   font-size: 32px;
+   margin-left: 10px;
+}
+.disc p{
+    width: 50%;
+    text-align: justify;
+}

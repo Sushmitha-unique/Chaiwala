@@ -1,9 +1,25 @@
 import React from "react";
-import Practice from "./components/Practice";
+import './App.css'
+import Navbar from "./components/Navbar";
+import Home from "./components/Home";
+import Main from "./components/Main";
+import Type from "./components/Type";
+import Footer from "./components/Footer";
+import {Routes,Route} from "react-router-dom"
 const App = () =>{
 return(
     <div>
-       <Practice/>
+     <Navbar/>
+     <Routes>
+    <Route path="/" element={<div><Home/>
+                                  <Main/>
+                                  <Type/>
+                                  <Footer/>
+                                  </div>}/>
+    <Route path="/about" element={<Main/>}/>
+    <Route path="/type" element={<Type/>}/>
+    <Route path="/footer" element={<Footer/>}/>
+     </Routes>
     </div>
 )
 }
